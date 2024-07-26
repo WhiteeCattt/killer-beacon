@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Маяк убийца - v1.0.0",
+		"description": "Данный аддон добавляет на ваш сервер событие «Маяк убийца» с ФанТайма!\n\nПомощь по командам: §e/scriptevent beacon:help§f\nНастройка находится в файле §econfig.js§f\nСоздатель: §eWhiteeCattt§f\nТелеграм-канал: §et.me/addons_pe",
+		"uuid": "0220a846-3380-4230-b808-07e9d0c5dd53",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 50 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "24e6c747-5112-43e7-aa27-0cfdcf38cb2b",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "8e44f579-4a41-4343-b4b8-0b8eb26a8bfe",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://github.com/WhiteeCattt/killer-beacon"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		}
+	]
+}
