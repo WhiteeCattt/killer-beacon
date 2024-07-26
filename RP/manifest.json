@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Маяк убийца - v1.0.0",
+		"description": "",
+		"uuid": "5ba58ade-8a4b-4cdd-bd63-f01fd7bd48aa",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 50 ]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "c3b2d9a1-a709-48b4-a56d-5301f9e28466",
+			"version": [ 1, 0, 0 ]
+		}
+	]
+}
